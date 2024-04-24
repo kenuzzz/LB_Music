@@ -73,7 +73,9 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-
+START_IMG_URL = getenv(
+    "START_IMG_URL", "https://graph.org/file/276b33eaaa750bdc59ae5.jpg"
+)
 
 PLAYLIST_IMG_URL = "https://graph.org/file/b490638fd73cd0ec1d1ad.jpg"
 STATS_IMG_URL = "https://graph.org/file/b490638fd73cd0ec1d1ad.jpg"
